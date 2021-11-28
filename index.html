@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,29 +12,31 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Beast Tour Plan - Hotel Booking</title>
 </head>
-
 <body>
     <header class="navbar">
         <div class="container">
             <div class="navbar-wrapper">
                 <a class="logo" href="#"><img class="logo__image" src="img/horizontal-logo.svg"
                         alt="Logo: Beast Tour Plan "></a>
-
                 <form class="search navbar__search" action="#">
                     <input class="search__input" type="text" placeholder="Search Location">
                     <button class="search__button"><img src="img/search.svg" alt=""></button>
                 </form>
-                <a class="user navbar__user">
+                <a class="user">
                     <img class="user__avatar" src="img/user-image.png" alt="Avatar: Nathan">
                     <span class="user__name">Nathan</span>
                 </a>
-                <button class="menu-button navbar-wripper__menu-button">
-                    <span class="menu-button__line"></span>
-                    <span class="menu-button__line"></span>
-                    <span class="menu-button__line"></span>
-                </button>
             </div>
 
+            <nav class="navbar-menu">
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">All Deals</a></li>
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Hotels</a></li>
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Activities</a></li>
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Hotel Day Packages</a></li>
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Restaurants</a></li>
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Events</a></li>
+                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Rodrigues</a></li>
+            </nav>
         </div>
         <div class="navbar-bottom">
             <div class="container">
@@ -52,5 +53,4 @@
         </div>
     </header>
 </body>
-
 </html>
